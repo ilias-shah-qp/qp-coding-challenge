@@ -4,8 +4,8 @@ services:
     build: ./backend
     ports:
       - "3300:3300"
-    environment:
-      - PORT=3300
+    env_file:
+      - ./backend/.env.development
     volumes:
       - ./backend:/app
       - /app/node_modules

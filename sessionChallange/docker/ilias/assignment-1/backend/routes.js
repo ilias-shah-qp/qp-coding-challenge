@@ -11,17 +11,17 @@ router.get("/users", (req, res) => {
   res.send([
     {
       name: "Ilias Shah",
-      email: "ilias.shah@questionpro.cm",
+      email: "ilias.shah@questionpro.com",
       age: 32,
     },
     {
       name: "John Doe",
-      email: "john.doe@questionpro.cm",
+      email: "john.doe@questionpro.com",
       age: 35,
     },
     {
       name: "Jane Doe",
-      email: "jane.doe@questionpro.cm",
+      email: "jane.doe@questionpro.com",
       age: 30,
     },
   ]);
